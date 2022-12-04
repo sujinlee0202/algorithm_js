@@ -3,7 +3,7 @@ const solution = (str) => {
 
   for(let i=0; i<str.length; i++) {
     if(str[i] === str[i].toUpperCase()) {
-      if(str[i] === ' ') continue;
+      if(str[i] === ' ') continue; // 추가
       answer++;
     }
   }
